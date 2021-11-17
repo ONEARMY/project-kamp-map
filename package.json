@@ -6,6 +6,9 @@
   "repository": "https://github.com/b-n/project-kamp-map.git",
   "author": "Ben Naylor <nayben@gmail.com>",
   "license": "MIT",
+  "workspaces": [
+    "gis"
+  ],
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
