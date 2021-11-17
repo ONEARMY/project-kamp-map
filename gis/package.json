@@ -1,0 +1,13 @@
+{
+  "name": "gis",
+  "scripts": {
+    "start": "yarn node ./src/main.js",
+    "watch": "watch 'yarn run start' './src'"
+  },
+  "dependencies": {
+    "@ngageoint/geopackage": "^3.0.9",
+    "geolib": "^3.3.3",
+    "lodash": "^4.17.21",
+    "watch": "^1.0.2"
+  }
+}
